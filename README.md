@@ -20,9 +20,13 @@ FC layer of 128 neurons relu activation
 Final layer of 10 neurons softmax activation
 
 Compile :-
+
 Optimiser : Adam
+
 Loss : Categorical _ crossentropy
 
 Fit:-
+
 batch_size = 200
+
 epoch = 10
